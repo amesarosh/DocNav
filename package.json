@@ -1,0 +1,31 @@
+{
+  "name": "DocNav",
+  "preferGlobal": "true",
+  "version": "0.1.0",
+  "author": "Alex Mesarosh <alex.mesarosh@meltmedia.com",
+  "description": "Create a DocPad directory structure based off of a yaml navigation",
+  "bin": {
+    "docnav": "./src/docnav.coffee"
+  },
+  "scripts": {
+    "start": "coffee ./src/docnav.coffee"
+  },
+  "main": "./src/docnav.coffee",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "cli",
+    "nav",
+    "docpad"
+  ],
+  "dependencies" : {
+    "optimist" :  "0.3.x",
+    "js-yaml"  :  "1.0.x"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}

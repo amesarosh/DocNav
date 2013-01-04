@@ -1,5 +1,3 @@
-#! /usr/bin/env coffee
-#
 # docnav.coffee
 #
 # Create a DocPad directory structure based off of a yaml navigation

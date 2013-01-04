@@ -5,15 +5,15 @@
   "author": "Alex Mesarosh <alex.mesarosh@meltmedia.com",
   "description": "Create a DocPad directory structure based off of a yaml navigation",
   "bin": {
-    "docnav": "./src/docnav.coffee"
+    "docnav": "./bin/docnav.js"
   },
   "scripts": {
-    "start": "coffee ./src/docnav.coffee"
+    "start": "node ./bin/docnav.js"
   },
   "main": "./src/docnav.coffee",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/amesarosh/DocNav.git"
   },
   "keywords": [
     "cli",

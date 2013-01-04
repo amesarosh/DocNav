@@ -4,7 +4,7 @@ Create a [DocPad](https://github.com/bevry/docpad) directory structure based off
 
 Install
 -------
-Requires [node.js](http://nodejs.org/) and [CoffeeScript](http://coffeescript.org/)
+Requires [node.js](http://nodejs.org/)
 ```
 [sudo] npm install -g docnav
 ```
